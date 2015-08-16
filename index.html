@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wot-Journal</title>
+</head>
+<body>
+<div class="menu-block">
+    <div class="search-top">
+        <a class="js-menu-open" href="#"><i class="icon-menu"></i></a>
+        <form class="search-form-top" action="" name="">
+            <input class="field-search" type="search" required placeholder="Введите текст для поиска">
+            <label class="btn-search" for="btn-top-search">
+                <input class="btn-submit" type="submit" id="btn-top-search" value="">
+            </label>
+        </form>
+    </div>
+    <div class="enter-block">
+        <a class="enter-link" href="#">Вход</a>
+        <a class="enter-link" href="#">Регистрация</a>
+    </div>
+    <ul class="page-menu">
+        <li><a class="page-link" href="#">Главная</a></li>
+        <li><a class="page-link" href="#">Сравнить танки</a></li>
+        <li><a class="page-link" href="#">Вопросы</a></li>
+        <li><a class="page-link" href="#">Twitch Стримеры</a></li>
+    </ul>
+</div>
+<div class="page-block">
+    <header id="header">
+        <div class="top-block">
+            <a class="js-menu-open" href="#"><i class="icon-menu"></i></a>
+            <span class="date">понедельник - 5 марта, 2014</span>
+            <form class="form-search" action="" name="">
+                <input class="field-search" type="search" required placeholder="Введите текст для поиска">
+                <label class="btn-search" for="img-button">
+                    <input id="img-button" type="submit" value="">
+                </label>
+            </form>
+        </div>
+        <div class="bottom-block">
+            <a class="logotip left-block" href="/"><img class="img-responsive" src="images/logotip.png"></a>
+            <div class="right-block news-top">
+                <div class="news-block">
+                    <a class="section-link" href="#">Новости</a>
+                    <a class="title-link" href="#">Танки предололели новый рубеж</a>
+                    <p class="news-content">Новая физически-корректная система освещения техники и локаций</p>
+                </div>
+                <div class="news-block">
+                    <a class="section-link" href="#">Киберспорт</a>
+                    <a class="title-link" href="#">Объявлены итоги финала Wargaming.net League</a>
+                    <p class="news-content">Лучшей танковой дружиной была признана команда Na’Vi</p>
+                </div>
+                <div class="news-block">
+                    <a class="section-link" href="#">Киберспорт</a>
+                    <a class="title-link" href="#">Объявлены итоги финала Wargaming.net League</a>
+                    <p class="news-content">Лучшей танковой дружиной была признана команда Na’Vi</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container white-block">
+        <main class="left-block">
+            <h1 class="content-title">Новости World of Tanks</h1>
+            <div class="content">
+                <div class="post">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>Некоторые подробности подготовки обновления 9.3. Обновлено.</span>
+                            </a>
+                        </h2>
+                        <img class="img-responsive" src="images/wot1.png" alt=""/>
+                        <p class="text-block">
+                            Всем привет! Сегодня (28.08.14) разработчики поделились информацией о предстоящем патче:
+                            Сегодня на супертест уйдет версия 9.3, в которой ключевыми элементами будут являться новые
+                            высокоуровневые легкие танки, новый функционал Укрепрайонов, с долгожданными наемниками, ну
+                            и конечно элементы оптимизации и улучшения производительности. К слову, за лето был сделан
+                            большой шаг в этом направлении и по сравнению с версией 9.0, по разным подсчетам,
+                            производительность улучшена на 15-20%.
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--TODO class no-image для статьи без картинки-->
+
+                <div class="post no-image">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>Изменения техники в патче 9.3.</span>
+                            </a>
+                        </h2>
+                        <p class="text-block">
+                            Все еще может измениться, но это то, что есть сейчас на супертесте:
+                            - Всем легким танкам (кроме Type 62) подняли прочность подвески на 10%(10-20 хп);
+                            - Jagdpanther 88mm L/56 УГН уменьшен с 8 до 5;
+                            - Стоимость ремонта VK3601 уменьшен на 25%;
+                            - Birch gun 25pdr убрали;
+                            - Американскую ПТ T49 переименовали в T67;
+                            - Стоимость орудия T185, используемого на T71 легком танке и T69 среднем танке увеличили (63k до 73k серебра)
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                        <a class="label-link" href="#">Объект_430</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>Ребаланс Об.430, новая карта D-Day (видео) и ТТХ КВ-85. Обновлено</span>
+                            </a>
+                        </h2>
+                        <img src="images/wot2.png" class="img-responsive" alt=""/>
+                        <p class="text-block">
+                            Совсем непопулярный средний танк 10 уровня получил неплохой Апп своих характеристик, а именно:
+                            - Скорострельность поднимут до 9.7 и у него будет самый высокий ДПМ среди всех ст10!
+                            - Апнут немного стабилизацию, но ухудшат точность.
+                            - Скорострельность поднимут до 9.7 и у него будет самый высокий ДПМ среди всех ст10!
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                        <a class="label-link" href="#">Т26Е4</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>Акция «Цель — T26E4 SuperPershing»</span>
+                            </a>
+                        </h2>
+                        <img class="img-responsive" src="images/wot3.png" alt=""/>
+                        <p class="text-block">
+                            Всем привет! Сегодня (28.08.14) разработчики поделились информацией о предстоящем патче:
+                            Сегодня на супертест уйдет версия 9.3, в которой ключевыми элементами будут являться новые
+                            высокоуровневые легкие танки, новый функционал Укрепрайонов, с долгожданными наемниками,
+                            ну и конечно элементы оптимизации и улучшения производительности. К слову, за лето был сделан
+                            большой шаг в этом направлении и по сравнению с версией 9.0, по разным подсчетам,
+                            производительность улучшена на 15-20%.
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post no-image">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                        <a class="label-link" href="#">Т26Е4</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>Специальные предложения в честь Дня Победы</span>
+                            </a>
+                        </h2>
+                        <p class="text-block">
+                            Мы рады сообщить о том, что в честь Дня Победы с 9 мая 10:00 (МСК) по 12 мая 9:30 (МСК) в Премиум
+                            магазине доступны специальные наборы с техникой и другим внутриигровым имуществом.
+                            Новые предложения Премиум магазина — это отличная возможность сделать подарок своим боевым товарищам!
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                        <a class="label-link" href="#">Т26Е4</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>29 июля выходит обновление 9.2</span>
+                            </a>
+                        </h2>
+                        <img class="img-responsive" src="images/wot4.png" alt=""/>
+                        <p class="text-block">
+                            Танковые командиры!
+                            29 июля выходит обновление 9.2, в связи с чем игровые серверы будут недоступны с 3:00 до
+                            11:30 (МСК). Кроме того, с 29 июля 3:15 (МСК) до 30 июля 3:55 (МСК) будет «заморожена»
+                            игровая ситуация на Глобальной карте. Официальный портал также будет недоступен 29 июля
+                            с 3:00 до 10:00 (МСК).
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="label">
+                        <a class="label-link" href="#">Новости</a>
+                        <a class="label-link" href="#">Патч 9.3</a>
+                        <a class="label-link" href="#">Объект_430</a>
+                    </div>
+                    <div class="image-block">
+                        <h2>
+                            <a class="post-link" href="#">
+                                <span>Ребаланс Об.430, новая карта D-Day (видео) и ТТХ КВ-85. Обновлено</span>
+                            </a>
+                        </h2>
+                        <img class="img-responsive" src="images/wot2.png" alt=""/>
+                        <p class="text-block">
+                            Совсем непопулярный средний танк 10 уровня получил неплохой Апп своих характеристик, а именно:
+                            - Скорострельность поднимут до 9.7 и у него будет самый высокий ДПМ среди всех ст10!
+                            - Апнут немного стабилизацию, но ухудшат точность.
+                            - Скорострельность поднимут до 9.7 и у него будет самый высокий ДПМ среди всех ст10!
+                        </p>
+                        <a class="review-link" href="#">Читать далее<i class="icon icon-bracket-right"></i></a>
+                    </div>
+                    <div class="meta-block">
+                        <a class="left-block number-comments" href="#">10 комментариев</a>
+                        <div class="right-block meta-bar">
+                            <span class="author-post">автор:<span>admin</span></span>
+                            <span class="date-post">сегодня</span>
+                            <span class="number-review-post">125</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--TODO class active для выделения номера страницы-->
+
+                <ul class="right-block page-navigation">
+                    <li><a class="active" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#"><i class="icon icon-right"></i></a></li>
+                </ul>
+            </div>
+        </main>
+        <aside class="right-block">
+            <div class="left-block big-block">
+                <h2 class="popular-title">популярное</h2>
+                <ul class="popular-block">
+                    <li><a href="#">Сводка с Глобальной карты на 7 марта 2014 года</a></li>
+                    <li><a href="#">Обновлён раздел Достижения и награды игры World of Tanks.</a></li>
+                    <li><a href="#">Открыт обновлённый wiki Wargaming.net. Теперь он посвящен не только Миру танков</a></li>
+                    <li><a href="#">Вики переведен в режим чтения, начаты работы по введению нового дизайна проекта</a></li>
+                    <li><a href="#">Игровые данные WoT обновлены до версии 0.8.9</a></li>
+                    <li><a href="#">Сводка с Глобальной карты на 7 марта 2014 года</a></li>
+                    <li><a href="#">Обновлён раздел Достижения и награды игры World of Tanks.</a></li>
+                    <li><a href="#">Открыт обновлённый wiki Wargaming.net. Теперь он посвящен не только Миру танков</a></li>
+                    <li><a href="#">Вики переведен в режим чтения, начаты работы по введению нового дизайна проекта</a></li>
+                    <li><a href="#">Игровые данные WoT обновлены до версии 0.8.9</a></li>
+                </ul>
+                <div class="banner-block">
+                    <img class="banner-img img-responsive" src="images/new-tank.png" alt=""/>
+                    <img class="banner-img img-responsive" src="images/new-phone.png" alt=""/>
+                </div>
+
+            </div>
+            <div class="right-block small-block">
+                <div class="group-block">
+                    <a class="group-link" href="#"><img class="img-responsive" src="images/vk-group.png" alt=""/>Группа ВКонтакте</a>
+                    <a class="group-link" href="#"><img class="img-responsive" src="images/twitter-group.png" class="img-responsive" alt=""/>Твиттер @WotJournal</a>
+                </div>
+
+                <div class="stream-block">
+                    <h3 class="stream-title">Стримеры Twitch.tv</h3>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">Wot_Journal</a>
+                            <span class="stream-description">r_4</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status offline">Offline</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">Aces_TV</a>
+                            <span class="stream-description">Стримеры тузов</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status online">Online</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">Galaxy_Alliance</a>
+                            <span class="stream-description">r_4</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status offline">Offline</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">StraikoiD</a>
+                            <span class="stream-description">Straik</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status online">Online</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">Virtuspro1WOT</a>
+                            <span class="stream-description">TheJove</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status offline">Offline</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">Aces_TV</a>
+                            <span class="stream-description">Стримеры тузов</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status offline">Offline</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">Galaxy_Alliance</a>
+                            <span class="stream-description">r_4</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status offline">Offline</span>
+                        </div>
+                    </div>
+                    <div class="stream">
+                        <div class="left-block">
+                            <a class="stream-link" href="#">StraikoiD</a>
+                            <span class="stream-description">Straik</span>
+                        </div>
+                        <div class="right-block">
+                            <span class="stream-status online">Online</span>
+                        </div>
+                    </div>
+                    <a href="#" class="all-stream">Все стримеры</a>
+                </div>
+                <div class="support-block">
+                    <a class="support-link" href="#"><img class="img-responsive" src="images/wot-banner.png" alt="">Официальный портал игры World of Tanks</a>
+                    <a class="support-link" href="#"><img class="img-responsive" src="images/wargaming-banner.png" alt="">Центр поддержки пользователей wargaming.net</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="page-nav">
+                <a class="title-link wot" href="#">World of Tanks</a>
+                <ul class="page-nav-block">
+                    <li><a class="page-link" href="#">Скачать игру</a></li>
+                    <li><a class="page-link" href="#">Центр поддержки
+                        пользователей</a></li>
+                </ul>
+            </div>
+            <div class="page-nav">
+                <a class="title-link wot-journal" href="#">Wot-Journal</a>
+                <ul class="page-nav-block">
+                    <li><a class="page-link" href="#">О сайте</a></li>
+                    <li><a class="page-link" href="#">Правила</a></li>
+                    <li><a class="page-link" href="#">Настройки</a></li>
+                </ul>
+            </div>
+            <div class="page-nav">
+                <a class="title-link sections" href="#">Разделы</a>
+                <ul class="page-nav-block">
+                    <li><a class="page-link" href="#">Публикации</a></li>
+                    <li><a class="page-link" href="#">Вопросы и ответы</a></li>
+                    <li><a class="page-link" href="#">Клановый раздел</a></li>
+                </ul>
+            </div>
+            <div class="page-nav">
+                <a class="title-link help" href="#">Помощь</a>
+                <ul class="page-nav-block">
+                    <li><a class="page-link" href="#">Служба поддержки</a></li>
+                    <li><a class="page-link" href="#">Частые вопросы (FAQ)</a></li>
+                </ul>
+            </div>
+            <div class="page-nav">
+                <a class="title-link money" href="#">Реклама</a>
+                <ul class="page-nav-block">
+                    <li><a class="page-link" href="#">Статистика</a></li>
+                    <li><a class="page-link" href="#">Реклама на сайте</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<div class="up-right-block js-up-right-block">
+    <a class="up-link" href="#">Наверх</a>
+</div>
+</body>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/WOTscripts.js"></script>
+</html>
