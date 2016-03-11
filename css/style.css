@@ -466,8 +466,6 @@ a:hover {
   box-sizing: border-box;
   width: 540px;
   height: 30px;
-  line-height: 30px;
-  line-height: 3rem;
   font-size: 18px;
   font-size: 1.8rem;
   -webkit-border-radius: 3px 0 0 3px;
